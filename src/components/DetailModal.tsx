@@ -98,14 +98,14 @@ export default function DetailModal({
       className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-[#1F3A34]/60 backdrop-blur-sm animate-fadeIn"
     >
       <div
-        className="relative w-full max-w-[680px] bg-[#FAF7F2] rounded-3xl p-6 sm:p-10 shadow-[0_24px_64px_rgba(31,58,52,0.2)] border border-[#A9B8A3]/30 max-h-[90vh] overflow-y-auto"
+        className="relative w-full max-w-170 bg-[#FAF7F2] rounded-3xl p-6 sm:p-10 shadow-[0_24px_64px_rgba(31,58,52,0.2)] border border-[#A9B8A3]/30 max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-5 right-5 w-10 h-10 rounded-full bg-[#EAE0D0] text-[#1F3A34] hover:bg-[#A9B8A3] flex items-center justify-center transition-colors min-h-[44px] min-w-[44px]"
+          className="absolute top-5 right-5 w-10 h-10 rounded-full bg-[#EAE0D0] text-[#1F3A34] hover:bg-[#A9B8A3] flex items-center justify-center transition-colors min-h-11 min-w-11"
           aria-label="Close details modal"
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -129,7 +129,7 @@ export default function DetailModal({
         </div>
 
         {current.image && (
-          <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-6 border border-[#A9B8A3]/30 bg-[#EAE0D0]">
+          <div className="relative aspect-video rounded-2xl overflow-hidden mb-6 border border-[#A9B8A3]/30 bg-[#EAE0D0]">
             <Image
               src={current.image}
               alt={current.title}
@@ -155,7 +155,7 @@ export default function DetailModal({
               onClose();
               onOpenConsultation();
             }}
-            className="w-full sm:w-auto px-6 py-3 rounded-full bg-[#A65A3B] text-white text-sm font-medium hover:bg-[#8D4A2F] transition-colors min-h-[44px] flex items-center justify-center"
+            className="w-full sm:w-auto px-6 py-3 rounded-full bg-[#A65A3B] text-white text-sm font-medium hover:bg-[#8D4A2F] transition-colors min-h-11 flex items-center justify-center"
           >
             Book a Consultation
           </button>

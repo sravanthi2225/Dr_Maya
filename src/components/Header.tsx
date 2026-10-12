@@ -43,7 +43,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
             : "bg-[#F6F1E9] py-5 border-b border-[#A9B8A3]/15"
         }`}
       >
-        <div className="max-w-[1240px] mx-auto px-6 sm:px-8 flex items-center justify-between">
+        <div className="max-w-310 mx-auto px-6 sm:px-8 flex items-center justify-between">
           {/* Logo Wordmark */}
           <Link
             href="/"
@@ -239,7 +239,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
               type="button"
               id="header-consultation-btn"
               onClick={onOpenConsultation}
-              className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#A65A3B] text-white text-sm font-medium tracking-wide shadow-sm hover:bg-[#8D4A2F] active:scale-[0.98] transition-all focus:outline-none focus:ring-2 focus:ring-[#A65A3B] focus:ring-offset-2 min-h-[44px]"
+              className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#A65A3B] text-white text-sm font-medium tracking-wide shadow-sm hover:bg-[#8D4A2F] active:scale-[0.98] transition-all focus:outline-none focus:ring-2 focus:ring-[#A65A3B] focus:ring-offset-2 min-h-11"
             >
               Book a Consultation
             </button>
@@ -251,7 +251,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
               type="button"
               id="mobile-menu-toggle"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2.5 rounded-lg text-[#1F3A34] hover:bg-[#EAE0D0] transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
+              className="p-2.5 rounded-lg text-[#1F3A34] hover:bg-[#EAE0D0] transition-colors min-h-11 min-w-11 flex items-center justify-center"
               aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
               aria-expanded={mobileMenuOpen}
             >
@@ -285,42 +285,42 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
               <Link
                 href="#how-i-work"
                 onClick={closeMobile}
-                className="py-2 hover:text-[#A65A3B] transition-colors min-h-[44px] flex items-center"
+                className="py-2 hover:text-[#A65A3B] transition-colors min-h-11 flex items-center"
               >
                 About Dr. Reynolds
               </Link>
               <Link
                 href="#specialties"
                 onClick={closeMobile}
-                className="py-2 hover:text-[#A65A3B] transition-colors min-h-[44px] flex items-center"
+                className="py-2 hover:text-[#A65A3B] transition-colors min-h-11 flex items-center"
               >
                 Specialties & Focus
               </Link>
               <Link
                 href="#methods"
                 onClick={closeMobile}
-                className="py-2 hover:text-[#A65A3B] transition-colors min-h-[44px] flex items-center"
+                className="py-2 hover:text-[#A65A3B] transition-colors min-h-11 flex items-center"
               >
                 Methods & Approaches
               </Link>
               <Link
                 href="#office"
                 onClick={closeMobile}
-                className="py-2 hover:text-[#A65A3B] transition-colors min-h-[44px] flex items-center"
+                className="py-2 hover:text-[#A65A3B] transition-colors min-h-11 flex items-center"
               >
                 Our Santa Monica Office
               </Link>
               <Link
                 href="#faqs"
                 onClick={closeMobile}
-                className="py-2 hover:text-[#A65A3B] transition-colors min-h-[44px] flex items-center"
+                className="py-2 hover:text-[#A65A3B] transition-colors min-h-11 flex items-center"
               >
                 Frequently Asked Questions
               </Link>
               <Link
                 href="#contact"
                 onClick={closeMobile}
-                className="py-2 hover:text-[#A65A3B] transition-colors min-h-[44px] flex items-center"
+                className="py-2 hover:text-[#A65A3B] transition-colors min-h-11 flex items-center"
               >
                 Contact & Location
               </Link>
@@ -334,7 +334,7 @@ export default function Header({ onOpenConsultation }: HeaderProps) {
                 closeMobile();
                 onOpenConsultation();
               }}
-              className="w-full py-3.5 rounded-full bg-[#A65A3B] text-white text-base font-medium shadow-md hover:bg-[#8D4A2F] transition-all min-h-[48px] flex items-center justify-center"
+              className="w-full py-3.5 rounded-full bg-[#A65A3B] text-white text-base font-medium shadow-md hover:bg-[#8D4A2F] transition-all min-h-12 flex items-center justify-center"
             >
               Book a Consultation
             </button>

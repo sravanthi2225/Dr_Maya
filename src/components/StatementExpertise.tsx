@@ -21,7 +21,7 @@ export default function StatementExpertise() {
       aria-labelledby="expertise-heading"
       className="py-20 lg:py-28 bg-[#1F3A34] text-[#F6F1E9] relative overflow-hidden"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Statement H2 */}
         <div className="max-w-[820px] mb-16">

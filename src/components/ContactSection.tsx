@@ -49,7 +49,7 @@ export default function ContactSection() {
       aria-labelledby="contact-heading"
       className="py-20 lg:py-28 bg-[#FAF7F2] border-t border-[#A9B8A3]/30"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
           {/* Left Column: Office & Practice Info */}
@@ -69,7 +69,7 @@ export default function ContactSection() {
 
             <div className="space-y-6 pt-6 border-t border-[#A9B8A3]/30 text-sm text-[#1D2623] font-sans">
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-8 h-8 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-[#A65A3B]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -83,7 +83,7 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-8 h-8 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-[#A65A3B]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
@@ -96,7 +96,7 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-8 h-8 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-[#A65A3B]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -214,7 +214,7 @@ export default function ContactSection() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-3.5 rounded-full bg-[#A65A3B] text-white font-medium text-sm sm:text-base shadow-sm hover:bg-[#8D4A2F] active:scale-[0.98] transition-all disabled:opacity-50 min-h-[48px] flex items-center justify-center gap-2"
+                  className="w-full py-3.5 rounded-full bg-[#A65A3B] text-white font-medium text-sm sm:text-base shadow-sm hover:bg-[#8D4A2F] active:scale-[0.98] transition-all disabled:opacity-50 min-h-12 flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? "Sending your message..." : "Send Consultation Inquiry"}
                 </button>
@@ -229,7 +229,7 @@ export default function ContactSection() {
                 <h3 className="text-2xl sm:text-3xl font-serif text-[#1F3A34] mb-3">
                   Message Sent Successfully
                 </h3>
-                <p className="text-sm sm:text-base text-[#5B6660] leading-relaxed max-w-[420px] mx-auto mb-6">
+                <p className="text-sm sm:text-base text-[#5B6660] leading-relaxed max-w-105 mx-auto mb-6">
                   Thank you for reaching out. I review all inquiries with care and will be in touch within 1–2 business days.
                 </p>
                 <button

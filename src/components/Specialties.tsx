@@ -46,7 +46,7 @@ export default function Specialties({ onSelectSpecialty }: SpecialtiesProps) {
       aria-labelledby="specialties-heading"
       className="py-20 lg:py-28 bg-[#EAE0D0]/50 border-t border-[#A9B8A3]/30"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Section Header */}
         <div className="max-w-[760px] mb-16">

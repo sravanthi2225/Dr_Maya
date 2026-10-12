@@ -9,12 +9,12 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
 
   return (
     <footer className="bg-[#1F3A34] text-[#F6F1E9] pt-20 pb-14 border-t border-[#A9B8A3]/25">
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Mandatory Crisis Line Notice Callout */}
         <div className="mb-16 p-6 sm:p-7 rounded-2xl bg-[#142723] border border-[#A9B8A3]/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="flex items-center gap-3.5">
-            <div className="w-9 h-9 rounded-full bg-[#A65A3B] text-white flex items-center justify-center flex-shrink-0 font-serif font-bold text-sm">
+            <div className="w-9 h-9 rounded-full bg-[#A65A3B] text-white flex items-center justify-center shrink-0 font-serif font-bold text-sm">
               988
             </div>
             <div>
@@ -28,7 +28,7 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
           </div>
           <a
             href="tel:988"
-            className="text-xs uppercase tracking-widest font-sans font-medium px-4 py-2 rounded-full bg-[#EAE0D0] text-[#1F3A34] hover:bg-white transition-colors flex-shrink-0"
+            className="text-xs uppercase tracking-widest font-sans font-medium px-4 py-2 rounded-full bg-[#EAE0D0] text-[#1F3A34] hover:bg-white transition-colors shrink-0"
           >
             Call 988 Now
           </a>
@@ -45,7 +45,7 @@ export default function Footer({ onOpenConsultation }: FooterProps) {
             <span className="text-xs uppercase tracking-[0.18em] text-[#A9B8A3] font-sans mb-5">
               Licensed Clinical Psychologist
             </span>
-            <p className="text-sm text-[#A9B8A3] leading-relaxed max-w-[420px] mb-6 font-sans">
+            <p className="text-sm text-[#A9B8A3] leading-relaxed max-w-105 mb-6 font-sans">
               Providing grounded in-person psychotherapy in Santa Monica, California, alongside secure, HIPAA-compliant telehealth for thoughtful, high-achieving adults located throughout California.
             </p>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#142723] border border-[#A9B8A3]/25 text-xs text-[#EAE0D0]">

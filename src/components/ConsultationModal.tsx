@@ -89,14 +89,14 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
       className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-[#1F3A34]/60 backdrop-blur-sm animate-fadeIn"
     >
       <div
-        className="relative w-full max-w-[620px] bg-[#FAF7F2] rounded-3xl p-6 sm:p-10 shadow-[0_24px_64px_rgba(31,58,52,0.2)] border border-[#A9B8A3]/30 max-h-[90vh] overflow-y-auto"
+        className="relative w-full max-w-155 bg-[#FAF7F2] rounded-3xl p-6 sm:p-10 shadow-[0_24px_64px_rgba(31,58,52,0.2)] border border-[#A9B8A3]/30 max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-5 right-5 w-10 h-10 rounded-full bg-[#EAE0D0] text-[#1F3A34] hover:bg-[#A9B8A3] flex items-center justify-center transition-colors min-h-[44px] min-w-[44px]"
+          className="absolute top-5 right-5 w-10 h-10 rounded-full bg-[#EAE0D0] text-[#1F3A34] hover:bg-[#A9B8A3] flex items-center justify-center transition-colors min-h-11 min-w-11"
           aria-label="Close consultation modal"
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -238,7 +238,7 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-3.5 rounded-full bg-[#A65A3B] text-white font-medium text-sm sm:text-base shadow-md hover:bg-[#8D4A2F] active:scale-[0.98] transition-all disabled:opacity-50 min-h-[48px] flex items-center justify-center gap-2"
+                  className="w-full py-3.5 rounded-full bg-[#A65A3B] text-white font-medium text-sm sm:text-base shadow-md hover:bg-[#8D4A2F] active:scale-[0.98] transition-all disabled:opacity-50 min-h-12 flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? "Sending inquiry..." : "Send Consultation Request"}
                 </button>
@@ -257,7 +257,7 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
             <h3 className="text-2xl sm:text-3xl font-serif text-[#1F3A34] mb-3">
               Thank You for Reaching Out
             </h3>
-            <p className="text-sm sm:text-base text-[#5B6660] max-w-[440px] mx-auto leading-relaxed mb-6 font-sans">
+            <p className="text-sm sm:text-base text-[#5B6660] max-w-110 mx-auto leading-relaxed mb-6 font-sans">
               Your inquiry has been received. I personally review each consultation request and will respond within 1–2 business days with next steps and scheduling availability.
             </p>
             <div className="p-4 bg-[#EAE0D0]/40 rounded-xl text-xs text-[#1F3A34] mb-6">

@@ -32,7 +32,7 @@ export default function Methods() {
       aria-labelledby="methods-heading"
       className="py-20 lg:py-28 bg-[#FAF7F2] border-t border-[#A9B8A3]/30"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Header Block */}
         <div className="max-w-[760px] mb-16">

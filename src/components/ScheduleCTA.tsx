@@ -10,7 +10,7 @@ export default function ScheduleCTA({ onOpenConsultation }: ScheduleCTAProps) {
       aria-labelledby="cta-heading"
       className="py-20 lg:py-28 bg-[#EAE0D0] border-t border-[#A9B8A3]/30"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         <div className="bg-[#FAF7F2] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#A9B8A3]/35 shadow-[0_16px_40px_rgba(31,58,52,0.06)] grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           
@@ -40,7 +40,7 @@ export default function ScheduleCTA({ onOpenConsultation }: ScheduleCTAProps) {
                 type="button"
                 id="cta-book-now-btn"
                 onClick={onOpenConsultation}
-                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#A65A3B] text-white text-base font-medium shadow-[0_4px_16px_rgba(166,90,59,0.25)] hover:bg-[#8D4A2F] active:scale-[0.98] transition-all min-h-[48px] focus:outline-none focus:ring-2 focus:ring-[#A65A3B] focus:ring-offset-2"
+                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#A65A3B] text-white text-base font-medium shadow-[0_4px_16px_rgba(166,90,59,0.25)] hover:bg-[#8D4A2F] active:scale-[0.98] transition-all min-h-12 focus:outline-none focus:ring-2 focus:ring-[#A65A3B] focus:ring-offset-2"
               >
                 Book a Consultation
               </button>

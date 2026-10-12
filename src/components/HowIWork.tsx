@@ -12,7 +12,7 @@ export default function HowIWork({ onOpenAbout }: HowIWorkProps) {
       aria-labelledby="how-i-work-heading"
       className="py-20 lg:py-28 bg-[#F6F1E9]"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           

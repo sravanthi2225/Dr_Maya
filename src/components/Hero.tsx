@@ -13,7 +13,7 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
       aria-labelledby="hero-heading"
       className="relative pt-32 sm:pt-36 lg:pt-40 pb-16 lg:pb-24 overflow-hidden bg-[#F6F1E9]"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           
           {/* Left Text Column */}
@@ -43,14 +43,14 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
                 type="button"
                 id="hero-book-btn"
                 onClick={onOpenConsultation}
-                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#A65A3B] text-white text-base font-medium shadow-[0_4px_16px_rgba(166,90,59,0.25)] hover:bg-[#8D4A2F] active:scale-[0.98] transition-all min-h-[48px] focus:outline-none focus:ring-2 focus:ring-[#A65A3B] focus:ring-offset-2"
+                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#A65A3B] text-white text-base font-medium shadow-[0_4px_16px_rgba(166,90,59,0.25)] hover:bg-[#8D4A2F] active:scale-[0.98] transition-all min-h-12 focus:outline-none focus:ring-2 focus:ring-[#A65A3B] focus:ring-offset-2"
               >
                 Schedule a Consultation
               </button>
 
               <Link
                 href="#specialties"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-transparent text-[#1F3A34] hover:bg-[#EAE0D0]/70 text-base font-medium border border-[#1F3A34]/20 transition-all min-h-[48px]"
+                className="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-transparent text-[#1F3A34] hover:bg-[#EAE0D0]/70 text-base font-medium border border-[#1F3A34]/20 transition-all min-h-12"
               >
                 Explore Specialties
               </Link>

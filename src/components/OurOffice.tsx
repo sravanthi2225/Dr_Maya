@@ -7,7 +7,7 @@ export default function OurOffice() {
       aria-labelledby="office-heading"
       className="py-20 lg:py-28 bg-[#F6F1E9] border-t border-[#A9B8A3]/30 overflow-hidden"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Top Header Block */}
         <div className="max-w-[780px] mb-16">
@@ -89,7 +89,7 @@ export default function OurOffice() {
         <div className="bg-[#FAF7F2] rounded-2xl p-6 sm:p-8 border border-[#A9B8A3]/30 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6">
           
           <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center flex-shrink-0 mt-0.5">
+            <div className="w-10 h-10 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center shrink-0 mt-0.5">
               <svg className="w-5 h-5 text-[#A65A3B]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -108,12 +108,12 @@ export default function OurOffice() {
             </div>
           </div>
 
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <a
               href="https://maps.google.com/?q=123th+Street+45+W,+Santa+Monica,+CA+90401"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1F3A34] text-[#F6F1E9] hover:bg-[#A65A3B] transition-colors text-sm font-medium shadow-sm min-h-[44px]"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1F3A34] text-[#F6F1E9] hover:bg-[#A65A3B] transition-colors text-sm font-medium shadow-sm min-h-11"
             >
               <span>Get directions</span>
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

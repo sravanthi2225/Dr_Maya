@@ -57,7 +57,7 @@ export default function WhoIHelp({ onOpenConsultation }: WhoIHelpProps) {
       aria-labelledby="who-i-help-heading"
       className="py-20 lg:py-28 bg-[#F6F1E9]"
     >
-      <div className="max-w-[1240px] mx-auto px-6 sm:px-8">
+      <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Section Header */}
         <div className="max-w-[760px] mb-16">
@@ -106,7 +106,7 @@ export default function WhoIHelp({ onOpenConsultation }: WhoIHelpProps) {
                   <ul className="space-y-2 mb-8 pt-4 border-t border-[#A9B8A3]/25">
                     {card.highlights.map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2.5 text-xs sm:text-[0.825rem] text-[#1D2623]">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#A65A3B] mt-1.5 flex-shrink-0" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#A65A3B] mt-1.5 shrink-0" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -134,7 +134,7 @@ export default function WhoIHelp({ onOpenConsultation }: WhoIHelpProps) {
           <button
             type="button"
             onClick={onOpenConsultation}
-            className="inline-flex items-center text-xs uppercase tracking-widest font-sans font-medium px-5 py-2.5 rounded-full bg-[#1F3A34] text-[#F6F1E9] hover:bg-[#A65A3B] transition-colors flex-shrink-0"
+            className="inline-flex items-center text-xs uppercase tracking-widest font-sans font-medium px-5 py-2.5 rounded-full bg-[#1F3A34] text-[#F6F1E9] hover:bg-[#A65A3B] transition-colors shrink-0"
           >
             Schedule Consultation
           </button>

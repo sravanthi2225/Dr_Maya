@@ -50,10 +50,10 @@ export default function FaqAccordion() {
       aria-labelledby="faqs-heading"
       className="py-20 lg:py-28 bg-[#F6F1E9] border-t border-[#A9B8A3]/30"
     >
-      <div className="max-w-[960px] mx-auto px-6 sm:px-8">
+      <div className="max-w-240 mx-auto px-6 sm:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-[680px] mx-auto mb-16">
+        <div className="text-center max-w-170 mx-auto mb-16">
           <span className="text-xs uppercase tracking-[0.2em] text-[#5B6660] font-sans block mb-3">
             Questions & Answers
           </span>
@@ -89,7 +89,7 @@ export default function FaqAccordion() {
                     {faq.q}
                   </span>
                   <span
-                    className={`w-7 h-7 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-7 h-7 rounded-full bg-[#EAE0D0] text-[#1F3A34] flex items-center justify-center shrink-0 transition-transform duration-300 ${
                       isOpen ? "rotate-180 bg-[#A65A3B] text-white" : ""
                     }`}
                     aria-hidden="true"
