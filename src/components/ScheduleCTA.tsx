@@ -30,7 +30,7 @@ export default function ScheduleCTA({ onOpenConsultation }: ScheduleCTAProps) {
             </h2>
 
             {/* Paragraph */}
-            <p className="text-base sm:text-lg text-[#5B6660] font-sans leading-relaxed mb-8 max-w-[580px]">
+            <p className="text-base sm:text-lg text-[#5B6660] font-sans leading-relaxed mb-8 max-w-145">
               You don’t have to keep navigating quiet exhaustion alone. I offer thoughtful in-person therapy at my private Santa Monica office and secure telehealth for clients located throughout California.
             </p>
 
@@ -53,7 +53,7 @@ export default function ScheduleCTA({ onOpenConsultation }: ScheduleCTAProps) {
 
           {/* Image */}
           <div className="lg:col-span-5 relative">
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-[0_12px_28px_rgba(31,58,52,0.1)] border-2 border-[#EAE0D0] bg-[#EAE0D0]">
+            <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-[0_12px_28px_rgba(31,58,52,0.1)] border-2 border-[#EAE0D0] bg-[#EAE0D0]">
               <Image
                 src="/images/office/santa-monica-coastal.webp"
                 alt="Calm morning light over the Santa Monica coastal atmosphere"

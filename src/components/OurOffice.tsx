@@ -10,7 +10,7 @@ export default function OurOffice() {
       <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Top Header Block */}
-        <div className="max-w-[780px] mb-16">
+        <div className="max-w-195 mb-16">
           <span className="text-xs uppercase tracking-[0.2em] text-[#5B6660] font-sans block mb-3">
             The Santa Monica Practice
           </span>
@@ -35,7 +35,7 @@ export default function OurOffice() {
           
           {/* Main Large Image (Tall Arched/Soft-rounded Frame) */}
           <div className="md:col-span-7 relative">
-            <div className="relative aspect-[4/3] sm:aspect-[16/11] rounded-3xl overflow-hidden shadow-[0_16px_40px_rgba(31,58,52,0.12)] border-2 border-[#EAE0D0] bg-[#EAE0D0]">
+            <div className="relative aspect-4/3 sm:aspect-16/11 rounded-3xl overflow-hidden shadow-[0_16px_40px_rgba(31,58,52,0.12)] border-2 border-[#EAE0D0] bg-[#EAE0D0]">
               <Image
                 src="/images/office/office-1.webp"
                 alt="Quiet and private therapy office seating area in Santa Monica with comfortable chairs and natural light"
@@ -54,7 +54,7 @@ export default function OurOffice() {
           <div className="md:col-span-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-6">
             
             {/* Image 2: Window Light & Linen */}
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-[0_12px_28px_rgba(31,58,52,0.08)] border-2 border-[#EAE0D0] bg-[#EAE0D0]">
+            <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-[0_12px_28px_rgba(31,58,52,0.08)] border-2 border-[#EAE0D0] bg-[#EAE0D0]">
               <Image
                 src="/images/office/office-2.webp"
                 alt="Gentle natural daylight through linen curtains in Santa Monica therapy room"
@@ -68,7 +68,7 @@ export default function OurOffice() {
             </div>
 
             {/* Image 3: Calming Uncluttered Detail */}
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-[0_12px_28px_rgba(31,58,52,0.08)] border-2 border-[#EAE0D0] bg-[#EAE0D0]">
+            <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-[0_12px_28px_rgba(31,58,52,0.08)] border-2 border-[#EAE0D0] bg-[#EAE0D0]">
               <Image
                 src="/images/office/office-3.webp"
                 alt="Uncluttered, comfortable grounding detail in Dr. Reynolds private office"

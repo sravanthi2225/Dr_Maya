@@ -33,7 +33,7 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
             </h1>
 
             {/* One-sentence subline */}
-            <p className="text-lg sm:text-xl text-[#5B6660] font-sans leading-relaxed max-w-[620px] mb-8 font-normal">
+            <p className="text-lg sm:text-xl text-[#5B6660] font-sans leading-relaxed max-w-155 mb-8 font-normal">
               Grounded, evidence-based psychotherapy for anxiety, panic, trauma, and burnout—helping you feel regulated in daily life, not just in session.
             </p>
 
@@ -81,10 +81,10 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
 
           {/* Right Column: Two Asymmetric Images */}
           <div className="lg:col-span-5 relative flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-[420px] sm:max-w-[460px] lg:max-w-none">
+            <div className="relative w-full max-w-105 sm:max-w-115 lg:max-w-none">
               
               {/* Primary Image: Therapist Portrait with Arched Mask */}
-              <div className="relative mx-auto lg:mr-8 w-[280px] sm:w-[320px] md:w-[350px] aspect-[4/5] arch-mask overflow-hidden shadow-[0_20px_48px_rgba(31,58,52,0.14)] border-4 border-[#F6F1E9] bg-[#EAE0D0]">
+              <div className="relative mx-auto lg:mr-8 w-70 sm:w-80 md:w-87.5 aspect-4/5 arch-mask overflow-hidden shadow-[0_20px_48px_rgba(31,58,52,0.14)] border-4 border-[#F6F1E9] bg-[#EAE0D0]">
                 <Image
                   src="/images/maya/dr-maya-reynolds.webp"
                   alt="Dr. Maya Reynolds, PsyD, Licensed Clinical Psychologist"
@@ -96,7 +96,7 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
               </div>
 
               {/* Secondary Offset Image: Sunlit Office Vignette */}
-              <div className="absolute -bottom-6 -left-2 sm:-left-6 lg:-left-10 w-[180px] sm:w-[210px] aspect-[4/3] rounded-2xl overflow-hidden shadow-[0_16px_36px_rgba(31,58,52,0.18)] border-4 border-[#F6F1E9] bg-[#EAE0D0] hidden xs:block">
+              <div className="absolute -bottom-6 -left-2 sm:-left-6 lg:-left-10 w-45 sm:w-52.5 aspect-4/3 rounded-2xl overflow-hidden shadow-[0_16px_36px_rgba(31,58,52,0.18)] border-4 border-[#F6F1E9] bg-[#EAE0D0] hidden xs:block">
                 <Image
                   src="/images/office/office-2.webp"
                   alt="Sunlit Santa Monica therapy office with natural light and linen curtains"
@@ -104,7 +104,7 @@ export default function Hero({ onOpenConsultation }: HeroProps) {
                   sizes="210px"
                   className="object-cover warm-grade"
                 />
-                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#1F3A34]/85 to-transparent p-2 text-center">
+                <div className="absolute bottom-0 inset-x-0 bg-linear-to-t from-[#1F3A34]/85 to-transparent p-2 text-center">
                   <span className="text-[10px] text-[#F6F1E9] font-medium tracking-wider uppercase">
                     Santa Monica Office
                   </span>

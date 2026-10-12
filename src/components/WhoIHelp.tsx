@@ -60,7 +60,7 @@ export default function WhoIHelp({ onOpenConsultation }: WhoIHelpProps) {
       <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Section Header */}
-        <div className="max-w-[760px] mb-16">
+        <div className="max-w-190 mb-16">
           <span className="text-xs uppercase tracking-[0.2em] text-[#5B6660] font-sans block mb-3">
             Who I Help · Adults Only
           </span>
@@ -83,7 +83,7 @@ export default function WhoIHelp({ onOpenConsultation }: WhoIHelpProps) {
               className="group flex flex-col bg-[#FAF7F2] rounded-2xl overflow-hidden border border-[#A9B8A3]/30 shadow-[0_8px_24px_rgba(31,58,52,0.04)] hover:shadow-[0_16px_36px_rgba(31,58,52,0.08)] hover:-translate-y-1 transition-all duration-300"
             >
               {/* Card Image */}
-              <div className="relative aspect-[16/10] overflow-hidden bg-[#EAE0D0]">
+              <div className="relative aspect-16/10 overflow-hidden bg-[#EAE0D0]">
                 <Image
                   src={card.image}
                   alt={card.alt}

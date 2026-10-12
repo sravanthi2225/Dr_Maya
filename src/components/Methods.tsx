@@ -35,7 +35,7 @@ export default function Methods() {
       <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Header Block */}
-        <div className="max-w-[760px] mb-16">
+        <div className="max-w-190 mb-16">
           <span className="text-xs uppercase tracking-[0.2em] text-[#5B6660] font-sans block mb-3">
             Therapeutic Methods
           </span>

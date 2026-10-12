@@ -24,7 +24,7 @@ export default function StatementExpertise() {
       <div className="max-w-310 mx-auto px-6 sm:px-8">
         
         {/* Statement H2 */}
-        <div className="max-w-[820px] mb-16">
+        <div className="max-w-205 mb-16">
           <span className="text-xs uppercase tracking-[0.22em] text-[#A9B8A3] font-sans block mb-3">
             Areas of Focus
           </span>

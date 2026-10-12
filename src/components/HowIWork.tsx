@@ -18,7 +18,7 @@ export default function HowIWork({ onOpenAbout }: HowIWorkProps) {
           
           {/* Image Column */}
           <div className="lg:col-span-5 relative">
-            <div className="relative mx-auto max-w-[420px] aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_20px_40px_rgba(31,58,52,0.12)] border-4 border-[#EAE0D0] bg-[#EAE0D0]">
+            <div className="relative mx-auto max-w-105 aspect-4/5 rounded-3xl overflow-hidden shadow-[0_20px_40px_rgba(31,58,52,0.12)] border-4 border-[#EAE0D0] bg-[#EAE0D0]">
               <Image
                 src="/images/maya/maya-in-session.webp"
                 alt="Dr. Maya Reynolds, PsyD, providing grounded, collaborative psychotherapy"

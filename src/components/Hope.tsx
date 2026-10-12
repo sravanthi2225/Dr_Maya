@@ -6,10 +6,10 @@ export default function Hope() {
       aria-labelledby="hope-heading"
       className="py-20 lg:py-28 bg-[#EAE0D0] border-y border-[#A9B8A3]/30"
     >
-      <div className="max-w-[1040px] mx-auto px-6 sm:px-8">
+      <div className="max-w-260 mx-auto px-6 sm:px-8">
         
         {/* Header Block */}
-        <div className="text-center max-w-[800px] mx-auto mb-14">
+        <div className="text-center max-w-200 mx-auto mb-14">
           <span className="text-xs uppercase tracking-[0.2em] text-[#5B6660] font-sans block mb-3">
             A Pathway to Steady Ground
           </span>
@@ -36,7 +36,7 @@ export default function Hope() {
 
           {/* Central Image Vignette */}
           <div className="md:col-span-3 flex justify-center">
-            <div className="relative w-[200px] h-[260px] arch-mask overflow-hidden shadow-[0_12px_28px_rgba(31,58,52,0.12)] border-2 border-[#F6F1E9] bg-[#F6F1E9]">
+            <div className="relative w-50 h-65 arch-mask overflow-hidden shadow-[0_12px_28px_rgba(31,58,52,0.12)] border-2 border-[#F6F1E9] bg-[#F6F1E9]">
               <Image
                 src="/images/office/office-window-light.webp"
                 alt="Soft natural sunlight in quiet Santa Monica therapy office"
