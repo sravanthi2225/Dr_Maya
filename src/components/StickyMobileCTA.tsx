@@ -10,7 +10,7 @@ export default function StickyMobileCTA({ onOpenConsultation }: StickyMobileCTAP
       aria-label="Quick mobile booking action"
       className="fixed bottom-0 left-0 right-0 z-40 lg:hidden p-3 bg-[#F6F1E9]/95 backdrop-blur-md border-t border-[#A9B8A3]/30 shadow-[0_-4px_16px_rgba(31,58,52,0.08)]"
     >
-      <div className="max-w-[500px] mx-auto flex items-center gap-3">
+      <div className="max-w-125 mx-auto flex items-center gap-3">
         <button
           type="button"
           onClick={onOpenConsultation}
