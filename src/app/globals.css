@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-evergreen: #1F3A34;
+    --color-cream: #F6F1E9;
+    --color-sand: #EAE0D0;
+    --color-sage: #A9B8A3;
+    --color-clay: #A65A3B;
+    --color-body: #1D2623;
+    --color-muted: #5B6660;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-cream);
+    color: var(--color-body);
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-body);
+    font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 1.0625rem; /* ~17px */
+    line-height: 1.65;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* Paper grain subtle texture */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif), Georgia, Cambria, serif;
+    color: var(--color-evergreen);
+    letter-spacing: -0.015em;
+    font-feature-settings: "liga" 1, "kern" 1;
+  }
+
+  ::selection {
+    background-color: #EAE0D0;
+    color: #1F3A34;
+  }
+}
+
+/* Custom interactive craft classes */
+.font-serif-heading {
+  font-family: var(--font-serif), Georgia, Cambria, serif;
+}
+
+.font-sans-body {
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Accessible focus ring */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-cream), 0 0 0 4px var(--color-clay);
+}
+
+/* Studio link underline animation */
+.studio-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.studio-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: currentColor;
+  transition: width 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.studio-link:hover::after {
+  width: 100%;
+}
+
+/* Arched image mask */
+.arch-mask {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+/* Warm grading filter for photography coherence */
+.warm-grade {
+  filter: sepia(0.06) contrast(0.98) brightness(1.02);
+}
+
+/* Motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
